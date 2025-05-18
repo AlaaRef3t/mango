@@ -14,48 +14,52 @@
 
     <div class="container">
         <div class="w-75 mx-auto">
-            <h1 class="fw-bolder text-primary text-center py-5">Product Management System</h1>
+            <h2>Update test</h2>
+            <h1 class="fw-bolder text-primary text-center  py-4">Product Management System</h1>
 
-        <div class="form-floating mb-3">
-            <input list="nameList" type="text" class="form-control" id="productName" placeholder="Product Name" required>
-            <label for="productName">Product Name</label>
-            <datalist id="nameList">
-                <option>Samsung</option>
-                <option>Apple</option>
-                <option>Toshiba</option>
-                <option>Alaraby</option>
-            </datalist>
-        </div>
-
-
-        <div class="form-floating mb-3">
-            <input type="number" class="form-control" id="productPrice" placeholder="Product Price" required>
-            <label for="productPrice">Product Price</label>
-        </div>
-        
-        <div class="form-floating mb-3">
-            <input list="catList" type="text" class="form-control" id="productCat" placeholder="Product Category" required>
-            <label for="productCat">Product Category</label>
-            <datalist id="catList">
-                <option>Phone</option>
-                <option>Tv</option>
-                <option>Electronics</option>
-                <option>Tablet</option>
-            </datalist>
-        </div>
+            <div class="form-floating mb-3">
+                <input list="nameList" type="text" class="form-control" id="productName" placeholder="Product Name"
+                    required>
+                <label for="productName">Product Name</label>
+                <datalist id="nameList">
+                    <option>Samsung</option>
+                    <option>Apple</option>
+                    <option>Toshiba</option>
+                    <option>Alaraby</option>
+                </datalist>
+            </div>
 
 
-        <div class="form-floating mb-3">
-            <textarea type="text" class="form-control" id="productDesc" placeholder="Product Description" required></textarea>
-            <label for="productDesc">Product Description</label>
-        </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="productPrice" placeholder="Product Price" required>
+                <label for="productPrice">Product Price</label>
+            </div>
 
-        <div class="form-floating mb-3">
-            <input type="file" class="form-control" id="productImg" placeholder="Product Image" required>
-            <label for="productImg">Product Image</label>
-        </div>
+            <div class="form-floating mb-3">
+                <input list="catList" type="text" class="form-control" id="productCat" placeholder="Product Category"
+                    required>
+                <label for="productCat">Product Category</label>
+                <datalist id="catList">
+                    <option>Phone</option>
+                    <option>Tv</option>
+                    <option>Electronics</option>
+                    <option>Tablet</option>
+                </datalist>
+            </div>
 
-        <button onclick="addProduct()" class="btn btn-outline-primary">Add Product</button>
+
+            <div class="form-floating mb-3">
+                <textarea type="text" class="form-control" id="productDesc" placeholder="Product Description"
+                    required></textarea>
+                <label for="productDesc">Product Description</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="file" class="form-control" id="productImg" placeholder="Product Image" required>
+                <label for="productImg">Product Image</label>
+            </div>
+
+            <button onclick="addProduct()" class="btn btn-outline-primary">Add Product</button>
         </div>
     </div>
 
@@ -63,7 +67,7 @@
         <div class="w-75 mx-auto">
             <h2 class="text-primary text-center">Available Product</h2>
             <div class="row" id="row">
-               
+
             </div>
         </div>
     </div>
