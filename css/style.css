@@ -1,0 +1,12 @@
+.form-control:focus{
+    border-bottom: solid 1px gray;
+    box-shadow: none;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid rgb(149, 147, 147);
+}
+textarea{
+    resize: none;
+}
